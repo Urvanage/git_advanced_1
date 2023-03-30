@@ -1,6 +1,6 @@
 from typing import List
 # Skeleton code for even_list
-def even_list(nums):
+def even_list(int_list):
 """
 Determines if a number is even and return an even list.
 Args:
@@ -9,9 +9,9 @@ Returns:
 A list of even integers.
 """
     b = list()
-    for i in range(0,len(nums)):
-        if nums[i]%2==0:
-            b.append(nums[i])
+    for i in range(0,len(int_list)):
+        if int_list[i]%2==0:
+            b.append(int_list[i])
     return b
 pass
 # Skeleton code for sum_of_squares_of_even
